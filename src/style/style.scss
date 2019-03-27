@@ -9,8 +9,9 @@
 
 // page
 @import 'pages/_index';
-// @import 'pages/_App';
+@import 'pages/_userPage';
 
 // components
 @import 'components/_header';
 @import 'components/_footer';
+@import 'components/_searchbar';

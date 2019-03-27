@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 class UserList extends Component {
 	constructor(props) {
@@ -39,7 +40,7 @@ class UserList extends Component {
 					{this.state.users.map((user) => {
 						return (
 							<div className="col-md-4 text-center">
-								<p>{user.name}</p>
+								<Link to={`/${user.username}`}><p>{user.name}</p></Link>
 							</div>
 						)
 					})}

@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "eslint": "^5.15.3",
-    "eslint-plugin-react": "^7.12.4",
     "react-scripts": "2.1.8"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.11",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
